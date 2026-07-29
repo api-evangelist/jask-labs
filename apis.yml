@@ -1,7 +1,28 @@
 aid: jask-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jask-labs.png
 name: Jask Labs
-description: Jask Labs is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Jask Labs (JASK) was a cybersecurity company that built an Autonomous Security
+  Operations Center (ASOC) platform — applying machine learning and analytics on
+  top of network and security telemetry to triage and prioritize security alerts
+  and reduce SOC analyst workload. Backed by Battery Ventures among other
+  investors, JASK was acquired by Sumo Logic in 2019 and folded into Sumo Logic's
+  cloud SIEM / Cloud SOC offering. Jask Labs no longer operates as an independent
+  company: its domains (jask.ai and jask.com) now permanently redirect (HTTP 301)
+  to sumologic.com, and there is no standalone Jask Labs developer portal, API
+  documentation, SDK, or live product surface to enrich. This profile is retained
+  as a portfolio-lead stub with the acquisition recorded.
 url: https://raw.githubusercontent.com/api-evangelist/jask-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,35 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: sumologic
+x-acquired-year: '2019'
+x-domain-redirect: https://sumologic.com/
+x-enrichment-outcome: >-
+  No independent developer/API surface. jask.ai and jask.com return HTTP 301 to
+  sumologic.com (probed 2026-07-19). Company acquired by Sumo Logic; no artifacts
+  fabricated.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Security
+- Cybersecurity
+- Security Operations
+- SIEM
+- Threat Detection
+- Analytics
+- Machine Learning
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
