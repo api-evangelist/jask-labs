@@ -38,7 +38,7 @@ x-enrichment-outcome: >-
   No independent developer/API surface. jask.ai and jask.com return HTTP 301 to
   sumologic.com (probed 2026-07-19). Company acquired by Sumo Logic; no artifacts
   fabricated.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
