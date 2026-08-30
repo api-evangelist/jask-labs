@@ -83,3 +83,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/sumo-logic/
+  name: Sumo Logic
+  x-relationship: acquired
+  x-evidence: "Backed by Battery Ventures among other investors, JASK was acquired by Sumo Logic in 2019 and folded into Sumo Logic's cloud SIEM / Cloud SOC offering."
