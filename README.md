@@ -64,6 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Jask Labs is a company surfaced as a portfolio company of battery-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: battery-ventures
+Jask Labs (JASK) was a cybersecurity company that built an Autonomous Security Operations Center (ASOC) platform — applying machine learning and analytics on top of network and security telemetry to triage and prioritize security alerts and reduce SOC analyst workload. Backed by Battery Ventures among other investors, JASK was acquired by Sumo Logic in 2019 and folded into Sumo Logic's cloud SIEM / Cloud SOC offering. Jask Labs no longer operates as an independent company: its domains (jask.ai and jask.com) now permanently redirect (HTTP 301) to sumologic.com, and there is no standalone Jask Labs developer portal, API documentation, SDK, or live product surface to enrich. This profile is retained as a portfolio-lead stub with the acquisition recorded.
+
+**Areas:** Company · Security · Cybersecurity · Security Operations · SIEM · Threat Detection · Analytics · Machine Learning · Acquired
+
+## Jask Labs on APIs.io (historical record)
+
+Everything profiled for Jask Labs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jask-labs/](https://apis.io/providers/jask-labs/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Jask Labs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jask-labs/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
